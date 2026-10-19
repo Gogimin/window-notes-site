@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Privacy Policy · Window Notes Uploader</title><link rel="stylesheet" href="style.css"></head>
+<body><main>
+<header><h1>개인정보처리방침 / Privacy Policy</h1>
+<p class="muted">Window Notes Uploader · 시행일 / Effective: 2026-10-19</p>
+<nav><a href="index.html">소개 / Home</a><a href="terms.html">이용약관 / Terms</a></nav></header>
+
+<h2>1. YouTube API 서비스 사용 / Use of YouTube API Services</h2>
+<p>Window Notes Uploader(이하 "도구")는 <b>YouTube API 서비스</b>를 사용합니다. 도구를 사용하면
+<a href="https://www.youtube.com/t/terms">YouTube 서비스 약관</a>에 동의하는 것이며, Google의 데이터 처리에는
+<a href="http://www.google.com/policies/privacy">Google 개인정보처리방침(http://www.google.com/policies/privacy)</a>이 적용됩니다.<br>
+This tool uses YouTube API Services. Google's handling of data is governed by the
+<a href="http://www.google.com/policies/privacy">Google Privacy Policy</a>.</p>
+
+<h2>2. 접근·수집·저장하는 정보 / Information accessed, collected and stored</h2>
+<p>도구는 채널 운영자가 Google 로그인으로 허용한 운영자 본인의 계정에만 접근합니다.</p>
+<ul>
+<li><b>로그인 토큰(OAuth)</b>: 업로드·글 수정을 위해 운영자 PC에만 저장합니다. 외부로 전송하거나 공유하지 않습니다.</li>
+<li><b>채널 식별 정보</b>(채널 ID·채널 이름): 올바른 채널에 올리는지 확인하는 데만 씁니다. 실행할 때마다 YouTube에서 다시 확인합니다.</li>
+<li><b>업로드 기록</b>(영상 ID·업로드 시각·운영자가 만든 제목): 같은 영상을 두 번 올리지 않고 끊긴 업로드를 이어 가는 데 씁니다.</li>
+<li><b>채널 통계(예정)</b>: 운영자 본인 채널의 조회수 등 성과 데이터를 다음 영상 기획에 참고하기 위해 읽을 수 있습니다. 운영자 PC에만 두며,
+30일마다 허용 상태를 다시 확인하고, 허용이 철회되면 지웁니다.</li>
+<li>다른 사람의 개인정보, 시청자 정보, 댓글은 수집하지 않습니다. 쿠키·기기 추적·광고·제3자 콘텐츠를 사용하지 않습니다.</li>
+</ul>
+<p>The tool only accesses the owner's own account that the owner authorized via Google sign-in. It stores the OAuth token, the channel ID and title
+(used only to confirm the right channel, re-checked on every run) and an upload log (video IDs, upload times, owner-written titles) on the owner's PC.
+It may read the owner's own channel statistics to plan future videos; these stay on the owner's PC, authorization is re-checked every 30 days, and
+they are deleted if access is revoked. It does not collect viewer data, comments or anyone else's personal information, and uses no cookies,
+device tracking, ads or third-party content.</p>
+
+<h2>3. 이용·공유 / How information is used and shared</h2>
+<p>위 정보는 운영자 본인 채널에 영상을 올리고 관리하는 데만 쓰며, 누구에게도 판매·공유·전송하지 않습니다.<br>
+The information is used only to upload and manage videos on the owner's channel and is never sold, shared or transferred.</p>
+
+<h2>4. 접근 철회·삭제 / Revoking access and deleting data</h2>
+<ul>
+<li>언제든 <a href="https://security.google.com/settings/security/permissions">Google 보안 설정 페이지(https://security.google.com/settings/security/permissions)</a>에서
+이 도구의 접근 권한을 철회할 수 있습니다.</li>
+<li>도구의 로그아웃 기능(<code>upload.bat --logout</code>)은 Google에 토큰 철회를 요청하고 PC의 토큰·채널 정보를 바로 지웁니다.</li>
+<li>Google 설정에서 철회한 경우, 다음 실행 때 토큰을 쓸 수 없음을 확인하면 관련 저장 정보를 지웁니다(어떤 경우에도 30일 이내).</li>
+<li>도구에서 정보를 지워도 YouTube에 올라간 영상·데이터에는 영향이 없습니다.</li>
+</ul>
+<p>You can revoke access at any time via the <a href="https://security.google.com/settings/security/permissions">Google security settings page</a>.
+The tool's logout function revokes the token with Google and deletes the stored token and channel data immediately; after a revocation on Google's side,
+related stored data is deleted within 30 days. Deleting data in the tool does not affect data on YouTube.</p>
+
+<h2>5. 보안 / Security</h2>
+<p>Google·YouTube와의 모든 통신은 HTTPS로 암호화되며, 로그인 정보는 운영자 PC에만 두고 코드 저장소·로그에 남기지 않습니다.<br>
+All communication with Google and YouTube uses HTTPS. Credentials stay on the owner's PC and are never written to code repositories or logs.</p>
+
+<h2>6. 문의 / Contact</h2>
+<p>개인정보 관련 문의: <b>gogimin.tube@gmail.com</b><br>Privacy questions: <b>gogimin.tube@gmail.com</b></p>
+</main></body></html>
